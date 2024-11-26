@@ -65,13 +65,12 @@
 } 
 
 .paper, .rock, .scissors{
-    width: 120px;
-    height: 120px;
+    width: 145px;
+    height: 145px;
     background: #fff;
     border-radius: 50%;
     background-repeat: no-repeat;
     background-position: center;
-    box-sizing: content-box;
 }
 
 .container-paper{
@@ -93,15 +92,15 @@
 
 .paper{
     background-image: url('/images/icon-paper.svg');
-    /* border: 20px solid  hsl(230, 89%, 62%); */
+    border: 17px solid  hsl(230, 89%, 62%);
 }
 
 .rock{
     background-image: url('/images/icon-rock.svg');
-    /* border: 20px solid hsl(349, 71%, 52%); */
+    border: 17px solid hsl(349, 71%, 52%);
 }
 
 .scissors{
     background-image: url('/images/icon-scissors.svg');
-    /* border: 20px solid hsl(230, 89%, 62%); */
+    border: 17px solid hsl(39, 89%, 49%);
 }
